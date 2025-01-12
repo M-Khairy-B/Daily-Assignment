@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-image: url(../imgs/alternatives.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+
+}
+textarea
+{
+  box-shadow: none !important;
+  border: none !important;
+}
+.row img {
+  object-fit: contain;
+}
+.toDoList div {
+  position: relative;
+  overflow: hidden;
+}
+.toDoList div .item {
+  background-color: #5a5656 ;
+  opacity: 95%;
+}
+
+#toDoingSection:hover  span{
+  display: inline-block !important;
+  transition: 0.2s;
+}
+#toDoneSection:hover  span{
+  display: inline-block !important;
+  transition: 0.2s;
+}
+.add-assignment {
+  color: black;
+}
+.assignment-input label {
+  color: black;
+}
+.invalid-input {
+  border: 2px solid red !important;
+}
